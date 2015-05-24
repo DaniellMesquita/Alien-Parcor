@@ -5,7 +5,6 @@
     <events>
         <variable constant="0" name="display" sid="6914581865831047" static="0" type="number">1</variable>
         <variable constant="0" name="zoom" sid="4482930374326041" static="0" type="number">1</variable>
-        <variable constant="0" name="Speed" sid="5480919144754852" static="0" type="number">330</variable>
         <event-block sid="5069080654656636">
             <conditions>
                 <condition id="6" name="On object clicked" sid="8814893043524075" type="Mouse">
@@ -29,15 +28,18 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="6" name="Set speed" sid="166534316488641" type="PlayerBox">
-                    <param id="0" name="Speed">Speed - 20</param>
-                </action>
                 <action id="-11" name="Subtract from" sid="9113213515841673" type="System">
                     <param id="0" name="Variable">display</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="0" name="Set text" sid="5188809572186202" type="speedText">
                     <param id="0" name="Text">display &amp; &quot;x&quot;</param>
+                </action>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="7122621827468109" type="PlayerBox">
+                    <param id="0" name="Acceleration">AccelerationDeceleration -10</param>
+                </action>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="3017188735363137" type="PlayerBox">
+                    <param id="0" name="Deceleration">AccelerationDeceleration -10</param>
                 </action>
             </actions>
         </event-block>
@@ -50,15 +52,18 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="6" name="Set speed" sid="2525918494772366" type="PlayerBox">
-                    <param id="0" name="Speed">Speed + 20</param>
-                </action>
                 <action id="-10" name="Add to" sid="732733022267628" type="System">
                     <param id="0" name="Variable">display</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="0" name="Set text" sid="6975116506470954" type="speedText">
                     <param id="0" name="Text">display &amp; &quot;x&quot;</param>
+                </action>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="3882170178838169" type="PlayerBox">
+                    <param id="0" name="Acceleration">AccelerationDeceleration + 10</param>
+                </action>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="7611124011572306" type="PlayerBox">
+                    <param id="0" name="Deceleration">AccelerationDeceleration + 10</param>
                 </action>
             </actions>
         </event-block>

@@ -3,7 +3,21 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="AccelerationDeceleration" sid="8971877761702537" static="0" type="number">500</variable>
         <include>Setting Event</include>
+        <event-block sid="3572263713893165">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9822064822289674" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="6774151996059294" type="PlayerBox">
+                    <param id="0" name="Acceleration">AccelerationDeceleration</param>
+                </action>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="8788679772998916" type="PlayerBox">
+                    <param id="0" name="Deceleration">AccelerationDeceleration</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="9420952587617698">
             <conditions>
                 <condition id="-1" name="Every tick" sid="6604018669092785" type="System" />
@@ -178,16 +192,6 @@
                 </action>
                 <action id="-9" name="Destroy" sid="9557800741118674" type="Enemy" />
                 <action id="-9" name="Destroy" sid="8767246119708542" type="Bullet" />
-            </actions>
-        </event-block>
-        <event-block sid="2879072943789494">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="9040763322548632" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Set speed" sid="7307432484926981" type="PlayerBox">
-                    <param id="0" name="Speed">Speed</param>
-                </action>
             </actions>
         </event-block>
     </events>
