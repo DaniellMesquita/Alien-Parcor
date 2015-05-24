@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Event</name>
     <events>
+        <variable constant="0" name="level" sid="3930151449566324" static="0" type="number">0</variable>
         <event-block sid="1227763071706964">
             <conditions>
                 <condition id="6" name="On object clicked" sid="8860670733468296" type="Mouse">
@@ -14,6 +15,82 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="7213657597136523" type="System">
                     <param id="0" name="Layout">Title</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9756853288299085">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1474095574862037" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">levelUp</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3008627131914915" type="System">
+                    <param id="0" name="Variable">level</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="4958871085148452" type="levelText">
+                    <param id="0" name="Text">level</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2227019597757072">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8690062296187924" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">levelDown</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="5690232962165665" type="System">
+                    <param id="0" name="Variable">level</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="7757627399876055" type="levelText">
+                    <param id="0" name="Text">level</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8031346750214415">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5155124909442211" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">levelUp</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7970343527551075" type="System">
+                    <param id="0" name="Variable">level</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4706919045424373" type="System">
+                    <param id="0" name="Variable">level</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8650772177505372">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1705926120808422" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">levelDown</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="517439978687625" type="System">
+                    <param id="0" name="Variable">level</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8825423370096974" type="System">
+                    <param id="0" name="Variable">level</param>
+                    <param id="1" name="Value">4</param>
                 </action>
             </actions>
         </event-block>
