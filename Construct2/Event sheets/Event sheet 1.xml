@@ -188,7 +188,7 @@
                 <action id="0" name="Spawn another object" sid="4727193709429967" type="Enemy">
                     <param id="0" name="Object">Explosion</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="Image point">0</param>
+                    <param id="2" name="Image point">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="9557800741118674" type="Enemy" />
                 <action id="-9" name="Destroy" sid="8767246119708542" type="Bullet" />
