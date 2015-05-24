@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2uistate>
     <!--This is a UI state file - its content describes the user interface settings when the layout was last open.
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-
         <position-x>585.886</position-x>
         <position-y>320.612</position-y>
         <position-z>100</position-z>

@@ -15,8 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout active="1" order="4">Settings</layout>
         <event-sheet order="1">Event sheet 1</event-sheet>
         <event-sheet order="3">Title Evet</event-sheet>
-        <layout order="0">Sandbox</layout>
-        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
+        <event-sheet order="5">Setting Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -42,5 +41,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/titlebg/" />
         <folder expanded="1" path="animation-folder/startB/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Settings/" />
+        <folder expanded="1" path="animation-folder/Start/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Back/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/zoomIn/" />
+        <folder expanded="1" path="animation-folder/lessSpeed/" />
+        <folder expanded="1" path="animation-folder/zoomOut/" />
+        <folder expanded="1" path="animation-folder/moreSpeed/" />
     </folders-expanded>
 </c2uistate>

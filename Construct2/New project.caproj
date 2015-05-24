@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -217,7 +217,7 @@
         </object-type>
         <object-type name="TiledBackground3" sid="4791487584132692">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\1BG.png" />
+            <texture original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\start.jpg" />
         </object-type>
         <object-type name="titlebg" sid="1402306655347075">
             <plugin id="Sprite" />
@@ -283,16 +283,103 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\1BG.png" />
         </object-type>
+        <object-type name="Settings" sid="4154755678839961">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9265837433997337" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Start" sid="3041327188857015">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9979752268345966" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="8633897685086101">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9096765219289423" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\menus.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Back" sid="5301593634804355">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2753226845126664" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="zoomText" sid="1048326639124675">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="speedText" sid="8172351931221328">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite4" sid="3094655385363778">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4850412196347756" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground5" sid="3401464476974891">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\button.jpg" />
+        </object-type>
+        <object-type name="zoomIn" sid="5081864981332636">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5188951803050061" speed="5">
+                    <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\button.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lessSpeed" sid="2783317777060727">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7948224451009123" speed="5">
+                    <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\button.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="zoomOut" sid="4045409407521171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1130699957217307" speed="5">
+                    <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\button.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moreSpeed" sid="4242122161804572">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651190983552722" speed="5">
+                    <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\button.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="3102405104467633">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Sandbox.xml</layout>
         <layout>Title.xml</layout>
+        <layout>Settings.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Title Evet.xml</event-sheet>
         <event-sheet>Settings Event.xml</event-sheet>
+        <event-sheet>Setting Event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />

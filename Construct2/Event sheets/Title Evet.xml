@@ -3,17 +3,32 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Title Evet</name>
     <events>
+        <include>Setting Event</include>
         <event-block sid="4286518807211699">
             <conditions>
                 <condition id="6" name="On object clicked" sid="2523721741553804" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">startB</param>
+                    <param id="2" name="Object clicked">Start</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="2616510702128297" type="System">
                     <param id="0" name="Layout">Sandbox</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9994747463802744">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6923450973726966" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3198602836280249" type="System">
+                    <param id="0" name="Layout">Settings</param>
                 </action>
             </actions>
         </event-block>

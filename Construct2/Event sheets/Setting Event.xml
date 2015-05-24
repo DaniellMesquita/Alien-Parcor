@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Setting Event</name>
+    <events>
+        <variable constant="0" name="display" sid="6914581865831047" static="0" type="number">1</variable>
+        <variable constant="0" name="zoom" sid="4482930374326041" static="0" type="number">1</variable>
+        <variable constant="0" name="Speed" sid="5480919144754852" static="0" type="number">330</variable>
+        <event-block sid="5069080654656636">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8814893043524075" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5720624846603933" type="System">
+                    <param id="0" name="Layout">Title</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4716187308470576">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2103588964133572" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">lessSpeed</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Set speed" sid="166534316488641" type="PlayerBox">
+                    <param id="0" name="Speed">Speed - 20</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="9113213515841673" type="System">
+                    <param id="0" name="Variable">display</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="5188809572186202" type="speedText">
+                    <param id="0" name="Text">display &amp; &quot;x&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="304745841833885">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7589097570712215" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">moreSpeed</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Set speed" sid="2525918494772366" type="PlayerBox">
+                    <param id="0" name="Speed">Speed + 20</param>
+                </action>
+                <action id="-10" name="Add to" sid="732733022267628" type="System">
+                    <param id="0" name="Variable">display</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="6975116506470954" type="speedText">
+                    <param id="0" name="Text">display &amp; &quot;x&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3177791732923085">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6399213095311143" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">zoomIn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Set layer scale" sid="3309538999890987" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Scale">zoom * 2</param>
+                </action>
+                <action id="0" name="Set text" sid="272477103884507" type="zoomText">
+                    <param id="0" name="Text">zoom &amp; &quot;00%&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9629183241907018">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1845958737795742" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">zoomOut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="1410168811656137" type="zoomText">
+                    <param id="0" name="Text">zoom &amp; &quot;00%&quot;</param>
+                </action>
+                <action id="-17" name="Set layer scale" sid="6893707630118832" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Scale">zoom / 2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
