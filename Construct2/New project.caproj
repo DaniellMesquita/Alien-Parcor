@@ -403,7 +403,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="EnemySprite" sid="3097132272996357">
+        <object-type name="EnemyBox" sid="3097132272996357">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="3779998715889614">

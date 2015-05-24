@@ -469,7 +469,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EnemySprite" uid="21">
+                <instance type="EnemyBox" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -505,7 +505,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>595</x>
-                        <y>490</y>
+                        <y>455</y>
                         <z>0</z>
                         <width>71</width>
                         <height>45</height>

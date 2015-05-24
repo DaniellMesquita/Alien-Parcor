@@ -185,13 +185,23 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Spawn another object" sid="4727193709429967" type="Enemy">
-                    <param id="0" name="Object">Explosion</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="Image point">1</param>
+                <action id="4" name="Set animation" sid="4727193709429967" type="Enemy">
+                    <param id="0" name="Animation">&quot;Hit&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="9557800741118674" type="Enemy" />
                 <action id="-9" name="Destroy" sid="8767246119708542" type="Bullet" />
+                <action id="-16" name="Wait" sid="2004264964232842" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="4" name="Set animation" sid="65917830652288" type="Enemy">
+                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="993520953526766" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-9" name="Destroy" sid="3747592253492088" type="Enemy" />
+                <action id="-9" name="Destroy" sid="7925135973206217" type="EnemyBox" />
             </actions>
         </event-block>
     </events>
