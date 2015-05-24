@@ -422,7 +422,7 @@
         <object-type name="Text2" sid="386577235000339">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text4" sid="9713474133060445">
+        <object-type name="levelText" sid="9713474133060445">
             <plugin id="Text" />
         </object-type>
         <object-type name="EnemyBox" sid="3097132272996357">
@@ -435,6 +435,36 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2428516659890722" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="levelUp" sid="6693159650215628">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8685357042978887" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="7638920320027171">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="levelDown" sid="7166151137874405">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444661629642826" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="zoomText" sid="4961926225361264">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="main" sid="1851136517181847">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6175781515629245" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -454,8 +484,8 @@
         <event-sheet>Level Event.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="6" />
-        <global-instance type="Mouse" uid="20" />
+        <global-instance type="Keyboard" uid="20" />
+        <global-instance type="Mouse" uid="32" />
     </global-instances>
     <sounds-folder />
     <music-folder />
