@@ -401,28 +401,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy" uid="13">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>665</x>
-                        <y>560</y>
-                        <z>0</z>
-                        <width>71</width>
-                        <height>45</height>
-                        <depth>0</depth>
-                        <hotspotX>0.507042229</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Bullet" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -491,48 +469,48 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlayerBox" uid="32">
+                <instance type="EnemySprite" uid="21">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Acceleration>500</Acceleration>
-                    </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Platform">
-                            <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>500</acceleration>
-                                <deceleration>500</deceleration>
-                                <jump-strength>1100</jump-strength>
-                                <gravity>2500</gravity>
-                                <max-fall-speed>1000</max-fall-speed>
-                                <double-jump>Disabled</double-jump>
-                                <jump-sustain>0</jump-sustain>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="ScrollTo">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
                         <behavior-instance type="DestroyOutsideLayout" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>630</x>
-                        <y>490</y>
+                        <x>595</x>
+                        <y>560</y>
                         <z>0</z>
                         <width>71</width>
                         <height>45</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Enemy" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>595</x>
+                        <y>490</y>
+                        <z>0</z>
+                        <width>71</width>
+                        <height>45</height>
+                        <depth>0</depth>
+                        <hotspotX>0.507042229</hotspotX>
                         <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
