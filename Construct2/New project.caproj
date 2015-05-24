@@ -407,7 +407,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="Sprite5" sid="6246758552828528">
             <plugin id="Sprite" />
             <animation-folder>
@@ -426,10 +425,7 @@
         <object-type name="Text4" sid="9713474133060445">
             <plugin id="Text" />
         </object-type>
-        <object-type name="EnemySprite" sid="3097132272996357">
-=======
         <object-type name="EnemyBox" sid="3097132272996357">
->>>>>>> 70cee048bbe7ad4130c628cc7292a5809970514a
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="3779998715889614">
