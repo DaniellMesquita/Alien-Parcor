@@ -151,7 +151,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="8834119602004517">
+        <object-type name="Enemy" sid="8834119602004517">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="1743862573821652" speed="0">
