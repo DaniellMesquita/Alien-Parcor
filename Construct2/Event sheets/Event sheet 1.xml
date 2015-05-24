@@ -186,32 +186,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3661651352694816">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="5032218831193585" type="Bullet">
-                    <param id="0" name="Object">Enemy</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="4727193709429967" type="Enemy">
-                    <param id="0" name="Animation">&quot;Hit&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="-9" name="Destroy" sid="8767246119708542" type="Bullet" />
-                <action id="-16" name="Wait" sid="2004264964232842" type="System">
-                    <param id="0" name="Seconds">0.5</param>
-                </action>
-                <action id="4" name="Set animation" sid="65917830652288" type="Enemy">
-                    <param id="0" name="Animation">&quot;Dead&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="993520953526766" type="System">
-                    <param id="0" name="Seconds">0.5</param>
-                </action>
-                <action id="-9" name="Destroy" sid="3747592253492088" type="Enemy" />
-                <action id="-9" name="Destroy" sid="7925135973206217" type="EnemyBox" />
-            </actions>
-        </event-block>
         <event-block sid="1121981455956249">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="2420116232324727" type="PlayerBox">
@@ -222,7 +196,7 @@
             <sub-events>
                 <event-block sid="6282830897797508">
                     <conditions>
-                        <condition id="-7" inverted="1" name="Compare instance variable" sid="4340815344406916" type="Player">
+                        <condition id="-7" name="Compare instance variable" sid="4340815344406916" type="Player">
                             <param id="0" name="Instance variable">Lives</param>
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">1</param>
@@ -237,9 +211,6 @@
                         <action id="-12" name="Subtract from" sid="2561879441671049" type="Player">
                             <param id="0" name="Instance variable">Lives</param>
                             <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="2833141651819625" type="System">
-                            <param id="0" name="Seconds">1.0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -330,11 +301,7 @@
                 </event-block>
                 <event-block sid="8694802445880741">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="2223738713325897" type="EnemyBox">
-                            <param id="0" name="Instance variable">action</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">&quot;left&quot;</param>
-                        </condition>
+                        <condition id="-22" name="Else" sid="2223738713325897" type="System" />
                     </conditions>
                     <actions>
                         <action id="-10" name="Set value" sid="6572108511817317" type="EnemyBox">
@@ -344,6 +311,29 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="6726350240548231">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6573021099165653" type="Bullet">
+                    <param id="0" name="Object">Enemy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9184848999499678" type="Enemy">
+                    <param id="0" name="Animation">&quot;Hit&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="7067580910889649" type="Bullet" />
+                <action id="-16" name="Wait" sid="1549213162566994" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="4" name="Set animation" sid="8152719416809103" type="Enemy">
+                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="5608514532693158" type="Enemy" />
+                <action id="-9" name="Destroy" sid="5416470961647965" type="EnemyBox" />
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
