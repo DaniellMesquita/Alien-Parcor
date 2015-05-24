@@ -530,13 +530,42 @@
         <object-type name="Text5" sid="7900968706079533">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite7" sid="4596687914309777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8083281972094094" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\4784.image_2030D56F.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="7508838621069429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7513149530161789" speed="5">
+                    <frame duration="1" hotspotX="0.501672" hotspotY="0.5" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\blue-flag-md.png">
+                        <collision-poly>
+                            <point x="0.0802676" y="0.0833333" />
+                            <point x="0.498328" y="0.0486111" />
+                            <point x="0.909699" y="0.09375" />
+                            <point x="0.19398" y="0.5" />
+                            <point x="0.444816" y="0.423611" />
+                            <point x="0.498328" y="0.416667" />
+                            <point x="0.230769" y="0.760417" />
+                            <point x="0.140468" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Sandbox.xml</layout>
         <layout>Title.xml</layout>
         <layout>Settings.xml</layout>
         <layout>Level.xml</layout>
+        <layout>Level 1.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -544,6 +573,9 @@
         <event-sheet>Settings Event.xml</event-sheet>
         <event-sheet>Setting Event.xml</event-sheet>
         <event-sheet>Level Event.xml</event-sheet>
+        <event-sheet>Level 1 Event Sheet.xml</event-sheet>
+        <event-sheet>Level 2 Event.xml</event-sheet>
+        <event-sheet>Level 3 Event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="39" />
