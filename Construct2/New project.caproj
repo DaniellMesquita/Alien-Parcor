@@ -19,6 +19,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -96,6 +97,9 @@
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="3690277091690782">
                     <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="1609687258885338">
+                    <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
