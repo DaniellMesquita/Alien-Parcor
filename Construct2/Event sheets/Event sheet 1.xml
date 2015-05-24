@@ -330,6 +330,8 @@
                 </action>
                 <action behavior="Fade" id="1" name="Start fade" sid="5608514532693158" type="Enemy" />
                 <action id="-9" name="Destroy" sid="5416470961647965" type="EnemyBox" />
+            </actions>
+        </event-block>
         <event-block sid="8534383251516378">
             <conditions>
                 <condition id="6" name="On object clicked" sid="549673562820503" type="Mouse">

@@ -94,6 +94,9 @@
         </object-type>
         <object-type name="Player" sid="20346436757926">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Lives" sid="4331344636979224" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="3690277091690782">
                     <behavior id="destroy" />
