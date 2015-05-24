@@ -105,38 +105,38 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="6934520704613282" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_stand.png">
-                        <image-point name="Shot Point" x="0.779412" y="0.723404" />
+                        <image-point name="Shot Point" x="0.558824" y="0.223404" />
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="1687967246160928" speed="3.5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk1.png">
-                        <image-point name="Shot Point" x="0.772727" y="0.72043" />
+                        <image-point name="Shot Point" x="0.560606" y="0.225806" />
                     </frame>
                     <frame duration="1" hotspotX="0.507463" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk2.png">
-                        <image-point name="Shot Point" x="0.776119" y="0.71875" />
+                        <image-point name="Shot Point" x="0.552239" y="0.21875" />
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Swim" pingpong="0" repeatcount="1" repeatto="0" sid="1719234513992679" speed="5">
                     <frame duration="1" hotspotX="0.507246" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim1.png">
-                        <image-point name="Shot Point" x="0.768116" y="0.715789" />
+                        <image-point name="Shot Point" x="0.565217" y="0.221053" />
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png">
-                        <image-point name="Shot Point" x="0.771429" y="0.721649" />
+                        <image-point name="Shot Point" x="0.557143" y="0.226804" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="1372559794945876" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue.png">
-                        <image-point name="Shot Point" x="0.772727" y="0.717391" />
+                        <image-point name="Shot Point" x="0.560606" y="0.228261" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="7954045139331914" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_jump.png">
-                        <image-point name="Shot Point" x="0.772727" y="0.72043" />
+                        <image-point name="Shot Point" x="0.560606" y="0.225806" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="8912198611627339" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png">
-                        <image-point name="Shot Point" x="0.771429" y="0.721649" />
+                        <image-point name="Shot Point" x="0.557143" y="0.226804" />
                     </frame>
                 </animation>
             </animation-folder>
@@ -427,14 +427,30 @@
         </object-type>
         <object-type name="EnemyBox" sid="3097132272996357">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="action" sid="2394902736219565" type="string" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="3779998715889614">
                     <behavior id="destroy" />
                 </behavior-type>
+                <behavior-type name="Platform" sid="7869170372661108">
+                    <behavior id="Platform" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2428516659890722" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png">
+                        <image-point name="Collision Point" x="0.5" y="0.513514" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EdgeMarker" sid="2539871223224888">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6974930584224474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -454,8 +470,8 @@
         <event-sheet>Level Event.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="6" />
-        <global-instance type="Mouse" uid="20" />
+        <global-instance type="Keyboard" uid="20" />
+        <global-instance type="Mouse" uid="32" />
     </global-instances>
     <sounds-folder />
     <music-folder />

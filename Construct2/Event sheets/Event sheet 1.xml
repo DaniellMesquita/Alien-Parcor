@@ -27,6 +27,10 @@
                     <param id="0" name="Object">PlayerBox</param>
                     <param id="1" name="Image point (optional)">0</param>
                 </action>
+                <action id="-4" name="Set position to another object" sid="1940025529340025" type="Enemy">
+                    <param id="0" name="Object">EnemyBox</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="8101762741000375">
@@ -140,6 +144,10 @@
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="Image point">1</param>
                 </action>
+                <action id="-22" name="Set angle toward position" sid="489859113418306" type="Bullet">
+                    <param id="0" name="X">Mouse.X</param>
+                    <param id="1" name="Y">Mouse.Y</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="7764012985447873">
@@ -217,6 +225,82 @@
                     <param id="2" name="Duration">1.0</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="9433417164176568">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="1792030969644583" type="EnemyBox">
+                    <param id="0" name="Instance variable">action</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;right&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="8805160080706551" type="Enemy">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Platform" id="7" name="Simulate control" sid="4378121166152038" type="EnemyBox">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6025405268610684">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="547325941070753" type="EnemyBox">
+                            <param id="0" name="Instance variable">action</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;left&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="1190587944089724" type="Enemy">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="7390848606223371" type="EnemyBox">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="511269568761567">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9632111303482344" type="EnemyBox">
+                    <param id="0" name="Object">EdgeMarker</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5236613578197685">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4062992529597011" type="EnemyBox">
+                            <param id="0" name="Instance variable">action</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;right&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7569747244601165" type="EnemyBox">
+                            <param id="0" name="Instance variable">action</param>
+                            <param id="1" name="Value">&quot;left&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8694802445880741">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2223738713325897" type="EnemyBox">
+                            <param id="0" name="Instance variable">action</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;left&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="6572108511817317" type="EnemyBox">
+                            <param id="0" name="Instance variable">action</param>
+                            <param id="1" name="Value">&quot;right&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

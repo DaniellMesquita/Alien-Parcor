@@ -77,7 +77,7 @@
                     <properties>
                         <text>1x</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-37,400,0</font>
+                        <font>Bauhaus 93,-37,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
