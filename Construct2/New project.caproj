@@ -11,7 +11,9 @@
     <saved-with-version>20000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
@@ -210,18 +212,89 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground3" sid="4791487584132692">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\1BG.png" />
+        </object-type>
+        <object-type name="titlebg" sid="1402306655347075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8220398019576376" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510204" original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\buttonLong_blue.png">
+                        <collision-poly>
+                            <point x="0.00526316" y="0.0204082" />
+                            <point x="0.5" y="0" />
+                            <point x="0.994737" y="0.0204082" />
+                            <point x="0.994737" y="0.979592" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00526316" y="0.979592" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="title" sid="4537484200596904">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="startB" sid="7510361916359873">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="982347787859937" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510204" original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\buttonLong_blue.png">
+                        <collision-poly>
+                            <point x="0.00526316" y="0.0204082" />
+                            <point x="0.5" y="0" />
+                            <point x="0.994737" y="0.0204082" />
+                            <point x="0.994737" y="0.979592" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00526316" y="0.979592" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="4930027574894536">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="1892844636595367">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Sprite2" sid="748631155800276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2203703286963173" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510204" original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\buttonLong_blue.png">
+                        <collision-poly>
+                            <point x="0.00526316" y="0.0204082" />
+                            <point x="0.5" y="0" />
+                            <point x="0.994737" y="0.0204082" />
+                            <point x="0.994737" y="0.979592" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00526316" y="0.979592" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground4" sid="1001245158262488">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\1BG.png" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
-        <layout>Layout 2.xml</layout>
+        <layout>Title.xml</layout>
+        <layout>Settings.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Title Evet.xml</event-sheet>
+        <event-sheet>Settings Event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Mouse" uid="20" />
     </global-instances>
     <sounds-folder />
     <music-folder />
