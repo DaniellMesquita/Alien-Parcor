@@ -11,6 +11,7 @@
     <saved-with-version>20000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
@@ -98,7 +99,7 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="6934520704613282" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_stand.png">
-                        <image-point name="Shot Point" x="0.514706" y="0.212766" />
+                        <image-point name="Shot Point" x="0.735294" y="0.744681" />
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="1687967246160928" speed="3.5">
@@ -192,6 +193,9 @@
                 <behavior-type name="Bullet" sid="1237479939287475">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="8348464658306034">
+                    <behavior id="destroy" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5485168871368994" speed="5">
@@ -210,10 +214,13 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Mouse" sid="7859187284069025">
+            <plugin id="Mouse" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Sandbox.xml</layout>
         <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
@@ -222,6 +229,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Mouse" uid="15" />
     </global-instances>
     <sounds-folder />
     <music-folder />
