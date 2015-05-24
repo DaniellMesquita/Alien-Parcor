@@ -10,9 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Sandbox</layout>
+        <layout active="1" order="0">Sandbox</layout>
         <layout order="2">Title</layout>
-        <layout active="1" order="4">Settings</layout>
+        <layout order="4">Settings</layout>
         <event-sheet order="1">Event sheet 1</event-sheet>
         <event-sheet order="3">Title Evet</event-sheet>
         <event-sheet order="5">Setting Event</event-sheet>
@@ -50,5 +50,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/lessSpeed/" />
         <folder expanded="1" path="animation-folder/zoomOut/" />
         <folder expanded="1" path="animation-folder/moreSpeed/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
     </folders-expanded>
 </c2uistate>

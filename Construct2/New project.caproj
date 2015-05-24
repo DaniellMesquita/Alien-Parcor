@@ -18,6 +18,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -174,7 +175,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="1743862573821652" speed="0">
-                    <frame duration="1" hotspotX="0.507042" hotspotY="0.511111" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider.png" />
+                    <frame duration="1" hotspotX="0.507042" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider.png" />
                 </animation>
                 <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="3965604324217127" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk1.png" />
@@ -367,6 +368,30 @@
         </object-type>
         <object-type name="Text3" sid="3102405104467633">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite5" sid="5264384773842988">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="1262497368585305">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5630713696602901" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\explosion-clipart-1270762888_Clip_Art.png">
+                        <collision-poly>
+                            <point x="0.188333" y="0.237895" />
+                            <point x="0.5" y="0.122105" />
+                            <point x="0.86" y="0.176842" />
+                            <point x="0.968333" y="0.498947" />
+                            <point x="0.896667" y="0.869474" />
+                            <point x="0.5" y="0.907368" />
+                            <point x="0.0933333" y="0.882105" />
+                            <point x="0.0916667" y="0.498947" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
