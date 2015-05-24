@@ -204,5 +204,19 @@
                 <action id="-9" name="Destroy" sid="7925135973206217" type="EnemyBox" />
             </actions>
         </event-block>
+        <event-block sid="1121981455956249">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2420116232324727" type="PlayerBox">
+                    <param id="0" name="Object">EnemyBox</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="1698313262183629" type="Player">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -211,11 +211,12 @@
                     </properties>
                     <behavior-instances>
                         <behavior-instance type="DestroyOutsideLayout" />
+                        <behavior-instance type="Flash" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>350</x>
+                        <x>245</x>
                         <y>175</y>
                         <z>0</z>
                         <width>66</width>
@@ -505,7 +506,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>595</x>
-                        <y>455</y>
+                        <y>560</y>
                         <z>0</z>
                         <width>71</width>
                         <height>45</height>
