@@ -180,6 +180,11 @@
         </object-type>
         <object-type name="Enemy" sid="8834119602004517">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="1310976703149368">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="1743862573821652" speed="0">
                     <frame duration="1" hotspotX="0.507042" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider.png">
@@ -450,7 +455,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6974930584224474" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="2417295032926035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3600224922458021" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\4784.image_2030D56F.png" />
                 </animation>
             </animation-folder>
         </object-type>
