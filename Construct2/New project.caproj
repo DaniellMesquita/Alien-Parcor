@@ -221,7 +221,7 @@
         </object-type>
         <object-type name="TiledBackground3" sid="4791487584132692">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\start.jpg" />
+            <texture original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\v.jpg" />
         </object-type>
         <object-type name="titlebg" sid="1402306655347075">
             <plugin id="Sprite" />
@@ -307,7 +307,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9096765219289423" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\menus.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\vv.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -393,18 +393,38 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite5" sid="6246758552828528">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5012863479596415" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground6" sid="1650466725517904">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sales00\Documents\GitHub\Alien-Parcor\Own Files\vvv.jpg" />
+        </object-type>
+        <object-type name="Text2" sid="386577235000339">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text4" sid="9713474133060445">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Sandbox.xml</layout>
         <layout>Title.xml</layout>
         <layout>Settings.xml</layout>
+        <layout>Level.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Title Evet.xml</event-sheet>
         <event-sheet>Settings Event.xml</event-sheet>
         <event-sheet>Setting Event.xml</event-sheet>
+        <event-sheet>Level Event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />

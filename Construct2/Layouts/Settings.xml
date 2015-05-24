@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>450</x>
-                        <y>301</y>
+                        <x>451</x>
+                        <y>299</y>
                         <z>0</z>
                         <width>900</width>
                         <height>600</height>
@@ -88,8 +88,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>470</x>
-                        <y>353</y>
+                        <x>487</x>
+                        <y>378</y>
                         <z>0</z>
                         <width>200</width>
                         <height>63</height>
@@ -110,8 +110,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>644</x>
-                        <y>264</y>
+                        <x>625</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>45</width>
                         <height>45</height>
@@ -132,8 +132,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>552</x>
-                        <y>374</y>
+                        <x>569</x>
+                        <y>399</y>
                         <z>0</z>
                         <width>45</width>
                         <height>45</height>
@@ -154,8 +154,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>591</x>
-                        <y>265</y>
+                        <x>572</x>
+                        <y>264</y>
                         <z>0</z>
                         <width>45</width>
                         <height>45</height>
@@ -176,8 +176,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>607</x>
-                        <y>374</y>
+                        <x>624</x>
+                        <y>399</y>
                         <z>0</z>
                         <width>45</width>
                         <height>45</height>
@@ -203,8 +203,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>585</x>
-                        <y>243</y>
+                        <x>566</x>
+                        <y>242</y>
                         <z>0</z>
                         <width>28</width>
                         <height>45</height>
@@ -230,8 +230,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>633</x>
-                        <y>247</y>
+                        <x>614</x>
+                        <y>246</y>
                         <z>0</z>
                         <width>28</width>
                         <height>45</height>
@@ -257,8 +257,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>595</x>
-                        <y>357</y>
+                        <x>612</x>
+                        <y>382</y>
                         <z>0</z>
                         <width>28</width>
                         <height>45</height>
@@ -284,8 +284,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
-                        <y>354</y>
+                        <x>561</x>
+                        <y>379</y>
                         <z>0</z>
                         <width>28</width>
                         <height>45</height>
