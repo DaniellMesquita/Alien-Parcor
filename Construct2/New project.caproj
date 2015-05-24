@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2hypsexc6mizy</unique-id>
+    <saved-with-version>20000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>900</width>
+        <height>600</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="9572001444346566">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="6519853607326024">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\bg_castle.png" />
+        </object-type>
+        <object-type name="Tile" sid="9121814768331217">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1441197876240997">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="20" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6305012067022286" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grass.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Base pack\Tiles\grassRight.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="20346436757926">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="6934520704613282" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_stand.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="1687967246160928" speed="3.5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk1.png" />
+                    <frame duration="1" hotspotX="0.507463" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Swim" pingpong="0" repeatcount="1" repeatto="0" sid="1719234513992679" speed="5">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="1372559794945876" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="7954045139331914" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_jump.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="8912198611627339" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayerBox" sid="4612349948265088">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="8779993207513132">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="1101290937866021">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8854458094030043" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\square1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="8454700383572773">
+            <plugin id="Keyboard" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="6" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
