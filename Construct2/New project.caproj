@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -215,7 +215,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="TiledBackground3" sid="4791487584132692">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Sales00\Documents\CHRIS\sprites\Sprites\UI elements\Adventure pack\1BG.png" />
@@ -260,7 +259,7 @@
         <object-type name="Text" sid="4930027574894536">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Mouse" sid="1892844636595367">
+        <object-type name="Mouse" sid="7859187284069025">
             <plugin id="Mouse" />
         </object-type>
         <object-type name="Sprite2" sid="748631155800276">
@@ -287,19 +286,8 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
-        <layout>Title.xml</layout>
-        <layout>Settings.xml</layout>
-=======
-        <object-type name="Mouse" sid="7859187284069025">
-            <plugin id="Mouse" />
-        </object-type>
-    </object-folder>
-    <families />
-    <layout-folder>
         <layout>Sandbox.xml</layout>
-        <layout>Layout 2.xml</layout>
->>>>>>> origin/master
+        <layout>Title.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -308,11 +296,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />
-<<<<<<< HEAD
         <global-instance type="Mouse" uid="20" />
-=======
-        <global-instance type="Mouse" uid="15" />
->>>>>>> origin/master
     </global-instances>
     <sounds-folder />
     <music-folder />
