@@ -94,6 +94,9 @@
         </object-type>
         <object-type name="Player" sid="20346436757926">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Lives" sid="4331344636979224" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="3690277091690782">
                     <behavior id="destroy" />
@@ -106,37 +109,45 @@
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="6934520704613282" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_stand.png">
                         <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <image-point name="Center" x="0.5" y="0.5" />
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="1687967246160928" speed="3.5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk1.png">
                         <image-point name="Shot Point" x="0.560606" y="0.225806" />
+                        <image-point name="Center" x="0.5" y="0.505376" />
                     </frame>
                     <frame duration="1" hotspotX="0.507463" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk2.png">
                         <image-point name="Shot Point" x="0.552239" y="0.21875" />
+                        <image-point name="Center" x="0.507463" y="0.5" />
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Swim" pingpong="0" repeatcount="1" repeatto="0" sid="1719234513992679" speed="5">
                     <frame duration="1" hotspotX="0.507246" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim1.png">
                         <image-point name="Shot Point" x="0.565217" y="0.221053" />
+                        <image-point name="Center" x="0.507246" y="0.505263" />
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png">
                         <image-point name="Shot Point" x="0.557143" y="0.226804" />
+                        <image-point name="Center" x="0.5" y="0.505155" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="1372559794945876" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue.png">
                         <image-point name="Shot Point" x="0.560606" y="0.228261" />
+                        <image-point name="Center" x="0.5" y="0.5" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="7954045139331914" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_jump.png">
                         <image-point name="Shot Point" x="0.560606" y="0.225806" />
+                        <image-point name="Center" x="0.5" y="0.505376" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="8912198611627339" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png">
                         <image-point name="Shot Point" x="0.557143" y="0.226804" />
+                        <image-point name="Center" x="0.5" y="0.505155" />
                     </frame>
                 </animation>
             </animation-folder>
@@ -187,20 +198,20 @@
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="3965604324217127" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk1.png">
+                    <frame duration="1" hotspotX="0.513889" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk1.png">
                         <image-point name="Explosion" x="0.5" y="1" />
                     </frame>
-                    <frame duration="1" hotspotX="0.506494" hotspotY="0.509434" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk2.png">
+                    <frame duration="1" hotspotX="0.506494" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk2.png">
                         <image-point name="Explosion" x="0.506494" y="1" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="8899865450800323" speed="0">
-                    <frame duration="1" hotspotX="0.507246" hotspotY="0.509804" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_dead.png">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_dead.png">
                         <image-point name="Explosion" x="0.507246" y="1" />
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Hit" pingpong="0" repeatcount="1" repeatto="0" sid="9378776603254466" speed="0">
-                    <frame duration="1" hotspotX="0.507042" hotspotY="0.511111" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_hit.png">
+                    <frame duration="1" hotspotX="0.507042" hotspotY="1" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_hit.png">
                         <image-point name="Explosion" x="0.507042" y="1" />
                     </frame>
                 </animation>
@@ -448,6 +459,11 @@
         </object-type>
         <object-type name="EdgeMarker" sid="2539871223224888">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7815842336097553">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6974930584224474" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\square1.png" />
