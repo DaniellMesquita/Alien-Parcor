@@ -16,6 +16,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -88,6 +89,11 @@
         </object-type>
         <object-type name="Player" sid="20346436757926">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="3690277091690782">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="6934520704613282" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_stand.png" />
@@ -120,6 +126,9 @@
                 <behavior-type name="ScrollTo" sid="1101290937866021">
                     <behavior id="scrollto" />
                 </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="3668094416540828">
+                    <behavior id="destroy" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8854458094030043" speed="5">
@@ -129,6 +138,36 @@
         </object-type>
         <object-type name="Keyboard" sid="8454700383572773">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite" sid="793509215004598">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Still" pingpong="0" repeatcount="1" repeatto="0" sid="6553618846503801" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\bat.png" />
+                </animation>
+                <animation framecount="2" loop="0" name="Fly" pingpong="0" repeatcount="1" repeatto="0" sid="268354780052616" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\bat.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\bat_fly.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="8834119602004517">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="1743862573821652" speed="0">
+                    <frame duration="1" hotspotX="0.507042" hotspotY="0.511111" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="3965604324217127" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk1.png" />
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.509434" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_walk2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="8899865450800323" speed="0">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.509804" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_dead.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hit" pingpong="0" repeatcount="1" repeatto="0" sid="9378776603254466" speed="0">
+                    <frame duration="1" hotspotX="0.507042" hotspotY="0.511111" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Enemy sprites\spider_hit.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
