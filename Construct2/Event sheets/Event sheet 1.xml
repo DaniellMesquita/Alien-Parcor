@@ -17,7 +17,7 @@
         <event-block sid="8101762741000375">
             <conditions>
                 <condition id="0" name="On key pressed" sid="7574141767168525" type="Keyboard">
-                    <param id="0" name="Key">37 (Left arrow)</param>
+                    <param id="0" name="Key">65 (A)</param>
                 </condition>
             </conditions>
             <actions>
@@ -29,7 +29,7 @@
         <event-block sid="3056407577001049">
             <conditions>
                 <condition id="0" name="On key pressed" sid="2722376449247188" type="Keyboard">
-                    <param id="0" name="Key">39 (Right arrow)</param>
+                    <param id="0" name="Key">68 (D)</param>
                 </condition>
             </conditions>
             <actions>
@@ -110,6 +110,68 @@
                     <param id="0" name="Animation">&quot;Fall&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="4714148182606644">
+            <conditions>
+                <condition id="0" name="On click" sid="5514929609196393" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="2507906611063511" type="Player">
+                    <param id="0" name="Object">Bullet</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7764012985447873">
+            <conditions>
+                <condition id="2" name="Key is down" sid="845661295817661" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="4239676019776052" type="PlayerBox">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6238096800721805">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9098752729290723" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="8302796790768889" type="PlayerBox">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9141023670554777">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6586955402202972" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="7584411531922416" type="PlayerBox">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3661651352694816">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5032218831193585" type="Bullet">
+                    <param id="0" name="Object">Enemy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9557800741118674" type="Enemy" />
+                <action id="-9" name="Destroy" sid="8767246119708542" type="Bullet" />
             </actions>
         </event-block>
     </events>

@@ -1,14 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2uistate>
     <!--This is a UI state file - its content describes the user interface settings when the layout was last open.
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
+<<<<<<< HEAD:Construct2/Layouts/Sandbox.uistate.xml
         <position-x>209.72</position-x>
         <position-y>332.781</position-y>
         <position-z>100</position-z>
         <lookat-x>209.72</lookat-x>
         <lookat-y>332.781</lookat-y>
+=======
+        <position-x>585.886</position-x>
+        <position-y>320.612</position-y>
+        <position-z>100</position-z>
+        <lookat-x>585.886</lookat-x>
+        <lookat-y>320.612</lookat-y>
+>>>>>>> origin/master:Construct2/Layouts/Sandbox.uistate.xml
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>1</snap-to-grid>
