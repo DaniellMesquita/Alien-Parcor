@@ -166,7 +166,7 @@
                         <behavior-instance type="Platform">
                             <properties>
                                 <max-speed>330</max-speed>
-                                <acceleration>500</acceleration>
+                                <acceleration>0</acceleration>
                                 <deceleration>500</deceleration>
                                 <jump-strength>1100</jump-strength>
                                 <gravity>2500</gravity>
@@ -212,7 +212,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>245</x>
+                        <x>350</x>
                         <y>175</y>
                         <z>0</z>
                         <width>66</width>

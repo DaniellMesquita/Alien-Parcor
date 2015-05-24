@@ -175,5 +175,15 @@
                 <action id="-9" name="Destroy" sid="8767246119708542" type="Bullet" />
             </actions>
         </event-block>
+        <event-block sid="2879072943789494">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9040763322548632" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Set speed" sid="7307432484926981" type="PlayerBox">
+                    <param id="0" name="Speed">Speed</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

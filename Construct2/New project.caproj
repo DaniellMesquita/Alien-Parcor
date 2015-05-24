@@ -315,9 +315,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="zoomText" sid="1048326639124675">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="speedText" sid="8172351931221328">
             <plugin id="Text" />
         </object-type>
@@ -366,6 +363,9 @@
             </animation-folder>
         </object-type>
         <object-type name="Text3" sid="3102405104467633">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="zoomText" sid="7757252144068355">
             <plugin id="Text" />
         </object-type>
     </object-folder>
