@@ -557,6 +557,42 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite9" sid="2329323803720071">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8730068162574455" speed="5">
+                    <frame duration="1" hotspotX="0.501124" hotspotY="0.5" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\Title.png">
+                        <collision-poly>
+                            <point x="0.233708" y="0.403101" />
+                            <point x="0.498876" y="0.418605" />
+                            <point x="0.766292" y="0.403101" />
+                            <point x="0.860674" y="0.5" />
+                            <point x="0.757303" y="0.581395" />
+                            <point x="0.242697" y="0.581395" />
+                            <point x="0.0629213" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="6645716899836681">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3148261944840674" speed="5">
+                    <frame duration="1" hotspotX="0.501124" hotspotY="0.5" original-source="C:\Users\Ishan\GitHub\Alien-Parcor\Own Files\Title.png">
+                        <collision-poly>
+                            <point x="0.233708" y="0.403101" />
+                            <point x="0.498876" y="0.418605" />
+                            <point x="0.766292" y="0.403101" />
+                            <point x="0.860674" y="0.5" />
+                            <point x="0.757303" y="0.581395" />
+                            <point x="0.242697" y="0.581395" />
+                            <point x="0.0629213" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
