@@ -492,7 +492,7 @@
         <object-type name="zoomText" sid="4961926225361264">
             <plugin id="Text" />
         </object-type>
-        <object-type name="main" sid="1851136517181847">
+        <object-type name="return" sid="1851136517181847">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6175781515629245" speed="5">

@@ -9,7 +9,7 @@
                 <condition id="6" name="On object clicked" sid="8860670733468296" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">main</param>
+                    <param id="2" name="Object clicked">return</param>
                 </condition>
             </conditions>
             <actions>
