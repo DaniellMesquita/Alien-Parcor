@@ -101,53 +101,10 @@
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">go</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="1118726184678817" type="System">
-                    <param id="0" name="Variable">level</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="9471448702762433" type="System">
-                    <param id="0" name="Layout">Level</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3972302404032397">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="408485082797999" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">go</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="221539560659343" type="System">
-                    <param id="0" name="Variable">level</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="7124090122592188" type="System">
-                    <param id="0" name="Layout">Level</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="130006095150095">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="7965381149997244" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">go</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="3031850563626961" type="System">
-                    <param id="0" name="Variable">level</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="7134811155465669" type="System">
-                    <param id="0" name="Layout">Level</param>
+                <action id="-25" name="Go to layout (by name)" sid="9471448702762433" type="System">
+                    <param id="0" name="Layout">level</param>
                 </action>
             </actions>
         </event-block>
