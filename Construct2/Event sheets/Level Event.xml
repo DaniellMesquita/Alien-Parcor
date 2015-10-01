@@ -31,9 +31,6 @@
                     <param id="0" name="Variable">level</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Set text" sid="4958871085148452" type="levelText">
-                    <param id="0" name="Text">level</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="2227019597757072">
@@ -48,9 +45,6 @@
                 <action id="-11" name="Subtract from" sid="5690232962165665" type="System">
                     <param id="0" name="Variable">level</param>
                     <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Set text" sid="7757627399876055" type="levelText">
-                    <param id="0" name="Text">level</param>
                 </action>
             </actions>
         </event-block>
@@ -95,6 +89,16 @@
             <actions>
                 <action id="-25" name="Go to layout (by name)" sid="9471448702762433" type="System">
                     <param id="0" name="Layout">&quot;Level&quot; &amp; level</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4086132297380934">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="2894213985872172" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7757627399876055" type="levelText">
+                    <param id="0" name="Text">level</param>
                 </action>
             </actions>
         </event-block>
