@@ -64,13 +64,13 @@
                 <condition id="-14" name="Compare variable" sid="7970343527551075" type="System">
                     <param id="0" name="Variable">level</param>
                     <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="4706919045424373" type="System">
                     <param id="0" name="Variable">level</param>
-                    <param id="1" name="Value">0</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
