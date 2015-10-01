@@ -56,11 +56,6 @@
         </event-block>
         <event-block sid="8031346750214415">
             <conditions>
-                <condition id="6" name="On object clicked" sid="5155124909442211" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">levelUp</param>
-                </condition>
                 <condition id="-14" name="Compare variable" sid="7970343527551075" type="System">
                     <param id="0" name="Variable">level</param>
                     <param id="1" name="Comparison">3</param>
@@ -76,11 +71,6 @@
         </event-block>
         <event-block sid="8650772177505372">
             <conditions>
-                <condition id="6" name="On object clicked" sid="1705926120808422" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">levelDown</param>
-                </condition>
                 <condition id="-14" name="Compare variable" sid="517439978687625" type="System">
                     <param id="0" name="Variable">level</param>
                     <param id="1" name="Comparison">5</param>
