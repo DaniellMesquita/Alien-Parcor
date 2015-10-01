@@ -108,16 +108,46 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="6934520704613282" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_stand.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Plasma\Desktop\Sem título.png">
                         <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="0.941176" y="0.5" />
+                            <point x="0.735294" y="0.808511" />
+                            <point x="0.5" y="0.904255" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.0588235" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="1687967246160928" speed="3.5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk1.png">
-                        <image-point name="Shot Point" x="0.560606" y="0.225806" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Plasma\Desktop\Sem título.png">
+                        <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="0.867647" y="0.5" />
+                            <point x="0.735294" y="0.808511" />
+                            <point x="0.5" y="0.904255" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.117647" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.507463" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_walk2.png">
-                        <image-point name="Shot Point" x="0.552239" y="0.21875" />
+                    <frame duration="1" hotspotX="0.514706" hotspotY="1" original-source="C:\Users\Plasma\Desktop\Sem título.png">
+                        <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="0.867647" y="0.5" />
+                            <point x="0.735294" y="0.808511" />
+                            <point x="0.5" y="0.904255" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.117647" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Swim" pingpong="0" repeatcount="1" repeatto="0" sid="1719234513992679" speed="5">
@@ -129,18 +159,60 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="1372559794945876" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue.png">
-                        <image-point name="Shot Point" x="0.560606" y="0.228261" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Plasma\Desktop\Sem título.png">
+                        <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="0.941176" y="0.5" />
+                            <point x="0.735294" y="0.808511" />
+                            <point x="0.5" y="0.904255" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.0588235" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="7954045139331914" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_jump.png">
-                        <image-point name="Shot Point" x="0.560606" y="0.225806" />
+                <animation framecount="2" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="7954045139331914" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Plasma\Desktop\Sem título.png">
+                        <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="1" y="0.5" />
+                            <point x="0.926471" y="0.946809" />
+                            <point x="0.5" y="0.904255" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.117647" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Plasma\Desktop\Sem título2.png">
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="1" y="0.5" />
+                            <point x="0.926471" y="0.946809" />
+                            <point x="0.5" y="0.904255" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.117647" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="8912198611627339" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Ishan\Desktop\Platform Game\Sprites\Platformer pack\Extra animations and enemies\Alien sprites\alienBlue_swim2.png">
-                        <image-point name="Shot Point" x="0.557143" y="0.226804" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Plasma\Desktop\Sem título.png">
+                        <image-point name="Shot Point" x="0.558824" y="0.223404" />
+                        <collision-poly>
+                            <point x="0.264706" y="0.191489" />
+                            <point x="0.5" y="0.0957447" />
+                            <point x="0.735294" y="0.191489" />
+                            <point x="0.882353" y="0.5" />
+                            <point x="0.75" y="0.819149" />
+                            <point x="0.5" y="0.989362" />
+                            <point x="0.264706" y="0.808511" />
+                            <point x="0.117647" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
